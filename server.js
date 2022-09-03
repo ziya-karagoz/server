@@ -69,8 +69,8 @@ if (process.env.NODE_ENV === "production") {
   );
 }
 
-server.listen(process.env.PORT || 5000, () => {
-  console.log("Calisiyor port : ", process.env.PORT || 5000);
+server.listen(5000, () => {
+  console.log("Calisiyor port : ", 5000);
 });
 
 /*
