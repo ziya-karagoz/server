@@ -68,7 +68,7 @@ if (process.env.NODE_ENV === "production") {
     res.sendFile(__dirname + "../client/build/index.html")
   );
 }
-
+//asd
 server.listen(5000, () => {
   console.log("Calisiyor port : ", 5000);
 });
